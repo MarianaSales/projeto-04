@@ -4,11 +4,6 @@ import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { stripe } from '../lib/stripe';
 import { GetServerSideProps } from 'next';
-
-import camiseta1 from '../assets/camisetas/1.png';
-import camiseta2 from '../assets/camisetas/2.png';
-import camiseta3 from '../assets/camisetas/3.png';
-import camiseta4 from '../assets/camisetas/4.png';
 import Stripe from 'stripe';
 
 interface HomeProps {
