@@ -30,9 +30,11 @@ export const Product = styled('a', {
         position: 'absolute',
         bottom: '0.25rem',
         left: '0.25rem',
-      right: '0.25rem',
+        right: '0.25rem',
         padding: '2rem',
+        
         borderRadius: 6,
+        
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
@@ -44,7 +46,8 @@ export const Product = styled('a', {
         transition: 'all 0.2s ease-in-out',
     
         strong: {
-          fontSize: '$lg'
+          fontSize: '$lg',
+          color: '$gray_600'
         },
     
         span: {
