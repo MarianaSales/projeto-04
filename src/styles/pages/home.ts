@@ -7,7 +7,7 @@ export const HomeContainer = styled('main', {
     maxWidth: 'calc(100vw - ((100vw - 1180px)/2))',
     color: '$gray_600',
     marginLeft: 'auto',
-    minHeight: 656,
+    minHeight: 576,
 })
 
 export const Product = styled('a', {
