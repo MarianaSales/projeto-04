@@ -1,4 +1,3 @@
-import { callbackify } from 'util';
 import { styled } from '..';
 
 export const ProductContainer = styled('main', {
@@ -63,8 +62,13 @@ export const ProductDetails = styled('div', {
         fontWeight: 'bold',
         fontSize: '$md',
 
-        '&:hover': {
+        '&:disabled': {
+            opacity: 0.6,
+            cursor: 'not-allowed',
+        },
+
+        '&:not(:disabled):hover': {
             backgroundColor: '$green_500',
-        }
-    }
+        },
+    },
 });
